@@ -3,6 +3,7 @@ import MusicPlayer from "./MusicPlayer";
 import { CoverArt } from "./components/CoverArt";
 import { SongTitle } from "./components/SongTitle";
 import { PlayControls } from "./components/PlayControls";
+import { VolumeControl } from "./components/VolumeControl";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <CoverArt />
       <SongTitle />
       <PlayControls />
+      <VolumeControl />
       <Footer />
     </div>
   );
