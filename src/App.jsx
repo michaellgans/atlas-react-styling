@@ -4,6 +4,7 @@ import { CoverArt } from "./components/CoverArt";
 import { SongTitle } from "./components/SongTitle";
 import { PlayControls } from "./components/PlayControls";
 import { VolumeControl } from "./components/VolumeControl";
+import { PlayListItem } from "./components/PlayListItem";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SongTitle />
       <PlayControls />
       <VolumeControl />
+      <PlayListItem />
       <Footer />
     </div>
   );
