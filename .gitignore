@@ -13,6 +13,7 @@ dist-ssr
 *.local
 newFile
 push
+format-pretty
 
 # Editor directories and files
 .vscode/*
