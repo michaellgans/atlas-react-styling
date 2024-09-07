@@ -8,6 +8,12 @@ export default {
     extend: {
       height: {
         '400': '400px',
+      },
+      width: {
+        '400': '400px',
+      },
+      maxWidth: {
+        '400': '400px'
       }
     },
   },
