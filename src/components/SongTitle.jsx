@@ -9,8 +9,8 @@ export function SongTitle() {
   // Define Hook
   return (
     <div className="song-text">
-      <h1 className="song-title">Song Title</h1>
-      <div className="artist">Artist Name</div>
+      <h2 className="song-title mb-2">Song Title</h2>
+      <div className="artist mb-4">Artist Name</div>
     </div>
   );
 }
