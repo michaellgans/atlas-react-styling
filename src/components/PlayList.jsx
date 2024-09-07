@@ -9,7 +9,7 @@ import { PlayListItem } from "./PlayListItem";
 export function PlayList() {
   // Define Hook
   return (
-    <div className="play-list">
+    <div className="play-list p-6">
       <PlayListItem />
     </div>
   );

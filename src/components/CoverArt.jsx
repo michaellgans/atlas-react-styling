@@ -9,7 +9,7 @@ import artSkeleton from "../assets/placeholder.svg";
 export function CoverArt() {
   // Define Hook
   return (
-    <div className="cover-art">
+    <div className="cover-art mb-6">
       <img
         src={artSkeleton}
         alt="Cover Art for Current Song"

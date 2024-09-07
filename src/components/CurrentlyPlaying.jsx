@@ -12,7 +12,7 @@ import { VolumeControl } from "./VolumeControl";
 export function CurrentlyPlaying() {
   // Define Hook
   return (
-    <div className="currently-playing">
+    <div className="currently-playing p-6">
       <CoverArt />
       <SongTitle />
       <PlayControls />
