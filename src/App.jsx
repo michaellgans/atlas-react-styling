@@ -1,6 +1,6 @@
 import Footer from "./components/Footer";
 import MusicPlayer from "./MusicPlayer";
-import { PlayListItem } from "./components/PlayListItem";
+import { PlayList } from "./components/PlayList";
 import { CurrentlyPlaying } from "./components/CurrentlyPlaying";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="flex h-full min-h-screen flex-col justify-between p-8">
       <MusicPlayer>
         <CurrentlyPlaying />
-        <PlayListItem />
+        <PlayList />
       </MusicPlayer>
       <Footer />
     </div>
