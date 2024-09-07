@@ -8,7 +8,7 @@
 export default function MusicPlayer({ children }) {
   // Define Hooks
   return (
-    <div className="music-player flex justify-center rounded-lg shadow-lg">
+    <div className="music-player flex max-w-4xl justify-center rounded-lg shadow-lg">
       {children}
     </div>
   );
