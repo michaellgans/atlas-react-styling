@@ -10,13 +10,13 @@ import { VolumeControl } from "./VolumeControl";
 
 // Returns a CurrentlyPlaying Component
 export function CurrentlyPlaying() {
-    // Define Hook
-    return (
-        <div className="currently-playing">
-            <CoverArt />
-            <SongTitle />
-            <PlayControls />
-            <VolumeControl />
-        </div>
-    );
+  // Define Hook
+  return (
+    <div className="currently-playing">
+      <CoverArt />
+      <SongTitle />
+      <PlayControls />
+      <VolumeControl />
+    </div>
+  );
 }
