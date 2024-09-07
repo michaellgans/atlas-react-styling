@@ -13,7 +13,7 @@ export function CoverArt() {
       <img
         src={artSkeleton}
         alt="Cover Art for Current Song"
-        className="cover-art-image h-400 rounded-md"
+        className="cover-art-image rounded-md max-w-400"
       />
     </div>
   );
