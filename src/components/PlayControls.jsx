@@ -8,9 +8,9 @@
 export function PlayControls() {
   // Define Hook
   return (
-    <div className="controls-container mb-4 flex h-10 items-center justify-between">
-      <div className="text-lg font-medium text-slate-800">1x</div>
-      <div className="rewind text-slate-800">
+    <div className="controls-container mb-4 flex h-10 items-center justify-between px-2">
+      <div className="text-lg font-medium">1x</div>
+      <div className="rewind opacity-50">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -20,7 +20,7 @@ export function PlayControls() {
           <path d="M9.195 18.44c1.25.714 2.805-.189 2.805-1.629v-2.34l6.945 3.968c1.25.715 2.805-.188 2.805-1.628V8.69c0-1.44-1.555-2.343-2.805-1.628L12 11.029v-2.34c0-1.44-1.555-2.343-2.805-1.628l-7.108 4.061c-1.26.72-1.26 2.536 0 3.256l7.108 4.061Z" />
         </svg>
       </div>
-      <div className="play text-slate-800">
+      <div className="play flex h-12 w-12 items-center justify-center rounded-md border-2 border-black">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -34,7 +34,7 @@ export function PlayControls() {
           />
         </svg>
       </div>
-      <div className="forward text-slate-800">
+      <div className="forward">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -44,7 +44,7 @@ export function PlayControls() {
           <path d="M5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628L12 14.471v2.34c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256l-7.108-4.061C13.555 6.346 12 7.249 12 8.689v2.34L5.055 7.061Z" />
         </svg>
       </div>
-      <div className="repeat text-slate-800">
+      <div className="repeat">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
