@@ -6,10 +6,11 @@ export default {
   ],
   theme: {
     colors: {
-      'dark-grey': '#363531',
-      'bronze': '#E0B961',
-      'light-teal': '#A6B597',
-      'teal': '#77A272'
+      'main-background': '#edf7fd',
+      'player-background': '#9de1fb',
+      'playing': '#76d4f9',
+      'text-color': '#03120e',
+      'muted-text': '#2f2f4b'
     },
     extend: {
       height: {
