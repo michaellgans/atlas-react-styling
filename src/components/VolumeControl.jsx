@@ -9,7 +9,7 @@ export function VolumeControl() {
   // Define Hook
   return (
     <div className="volume-control-container flex">
-      <div className="volume-icon">
+      <div className="volume-icon flex h-5 w-5 items-center justify-center rounded-md hover:bg-hover active:bg-active">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"

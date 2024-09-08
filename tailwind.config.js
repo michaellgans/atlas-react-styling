@@ -7,12 +7,12 @@ export default {
   theme: {
     colors: {
       'main-background': '#edf7fd',
-      'player-background': '#9de1fb',
+      'player-background': '#B0E7FC',
       'hover': '#76d4f9',
       'active': '#4fc8f8',
       'text-color': '#03120e',
       'playing': '#27677C',
-      'muted-text': '#3F3F64'
+      'muted-text': '#6C5D96'
     },
     extend: {
       height: {
