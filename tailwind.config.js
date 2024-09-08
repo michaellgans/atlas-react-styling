@@ -18,8 +18,8 @@ export default {
       'dark-text-color': '#eefcf8',
       'playing': '#27677C',
       'dark-playing': '#92cadd',
-      'muted-text': '#6C5D96',
-      'dark-muted-text': '#8375a9'
+      'muted-text': '#5B4F7D',
+      'dark-muted-text': '#c7c0d8'
     },
     extend: {
       height: {

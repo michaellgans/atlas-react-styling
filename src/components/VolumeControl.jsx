@@ -21,13 +21,16 @@ export function VolumeControl() {
         </svg>
       </div>
       <div className="volume-slider text-slate-500 ms-2 w-full">
-        <input
-          className="text-slate-500 w-full"
-          type="range"
-          min="1"
-          max="100"
-          defaultValue="50"
-        ></input>
+        <label htmlFor="Volume Control">
+          <input
+            className="text-slate-500 w-full"
+            aria-label="Volume Control Slider"
+            type="range"
+            min="1"
+            max="100"
+            defaultValue="50"
+          ></input>
+        </label>
       </div>
     </div>
   );
