@@ -10,7 +10,9 @@ export function SongTitle() {
   return (
     <div className="song-text">
       <h2 className="song-title mb-2 text-2xl font-bold">Song Title</h2>
-      <div className="artist mb-4 text-muted-text">Artist Name</div>
+      <div className="artist mb-4 text-muted-text dark:text-dark-muted-text">
+        Artist Name
+      </div>
     </div>
   );
 }
