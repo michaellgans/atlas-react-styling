@@ -15,6 +15,12 @@ export function PlayList() {
         <PlayListItem />
         <PlayListItem />
         <PlayListItem />
+        <PlayListItem />
+        <PlayListItem />
+        <PlayListItem />
+        <PlayListItem />
+        <PlayListItem />
+        <PlayListItem />
       </div>
     </div>
   );
