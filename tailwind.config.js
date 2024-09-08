@@ -7,7 +7,7 @@ export default {
   theme: {
     colors: {
       'main-background': '#edf7fd',
-      'dark-main-background': '041825',
+      'dark-main-background': '#041825',
       'player-background': '#B0E7FC',
       'dark-player-background': '#044862',
       'hover': '#76d4f9',
