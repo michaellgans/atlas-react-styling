@@ -9,7 +9,7 @@ export function VolumeControl() {
   // Define Hook
   return (
     <div className="volume-control-container flex">
-      <div className="volume-icon flex h-5 w-5 items-center justify-center rounded-md hover:bg-hover active:bg-active">
+      <div className="volume-icon flex h-5 w-5 cursor-pointer items-center justify-center rounded-md hover:bg-hover active:bg-active">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
@@ -23,7 +23,7 @@ export function VolumeControl() {
       <div className="volume-slider text-slate-500 ms-2 w-full">
         <label htmlFor="Volume Control">
           <input
-            className="text-slate-500 w-full"
+            className="text-slate-500 w-full cursor-pointer"
             aria-label="Volume Control Slider"
             type="range"
             min="1"
