@@ -11,7 +11,8 @@ export default {
       'hover': '#76d4f9',
       'active': '#4fc8f8',
       'text-color': '#03120e',
-      'muted-text': '#2f2f4b'
+      'playing': '#27677C',
+      'muted-text': '#3F3F64'
     },
     extend: {
       height: {
