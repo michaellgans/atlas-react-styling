@@ -9,7 +9,7 @@ import { PlayListItem } from "./PlayListItem";
 export function PlayList() {
   // Define Hook
   return (
-    <div className="play-list w-1/2 border-l p-6">
+    <div className="play-list w-full border-l p-6 sm:w-1/2">
       <h3 className="play-list-title mb-4 text-lg font-semibold">Playlist</h3>
       <div className="all-songs flex flex-col pr-4">
         <PlayListItem />
