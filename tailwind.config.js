@@ -8,7 +8,8 @@ export default {
     colors: {
       'main-background': '#edf7fd',
       'player-background': '#9de1fb',
-      'playing': '#76d4f9',
+      'hover': '#76d4f9',
+      'active': '#4fc8f8',
       'text-color': '#03120e',
       'muted-text': '#2f2f4b'
     },
