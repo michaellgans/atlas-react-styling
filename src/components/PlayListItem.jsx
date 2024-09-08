@@ -5,18 +5,18 @@
 // Script Imports
 
 // Returns a PlayListItem Component
-export function PlayListItem() {
+export function PlayListItem({ songTitle, artist, playTime }) {
   // Define Hook
   return (
     <div className="play-list-item mb-1 flex h-10 cursor-pointer items-center justify-between rounded-md text-sm font-medium hover:bg-hover active:bg-active dark:hover:bg-dark-hover dark:active:bg-dark-active">
       <div className="song-info">
-        <div className="song-title pb-0.5">Song Title</div>
+        <div className="song-title pb-0.5">{songTitle}</div>
         <div className="genre text-muted-text dark:text-dark-muted-text">
-          Genre
+          {artist}
         </div>
       </div>
       <div className="play-time text-muted-text dark:text-dark-muted-text">
-        8:41
+        {playTime}
       </div>
     </div>
   );
