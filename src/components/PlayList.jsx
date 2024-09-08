@@ -9,7 +9,7 @@ import { PlayListItem } from "./PlayListItem";
 export function PlayList() {
   // Define Hook
   return (
-    <div className="play-list w-full p-6 sm:w-1/2 sm:border-l sm:border-muted-text dark:sm:border-dark-muted-text">
+    <div className="play-list w-full p-6 md:w-1/2 md:border-l md:border-muted-text dark:md:border-dark-muted-text">
       <h3 className="play-list-title mb-4 text-xl font-semibold">
         What's On Your Vest?
       </h3>
