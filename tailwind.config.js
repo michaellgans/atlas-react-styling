@@ -7,12 +7,19 @@ export default {
   theme: {
     colors: {
       'main-background': '#edf7fd',
+      'dark-main-background': '041825',
       'player-background': '#B0E7FC',
+      'dark-player-background': '#044862',
       'hover': '#76d4f9',
+      'dark-hover': '#07729d',
       'active': '#4fc8f8',
+      'dark-active': '#088fc4',
       'text-color': '#03120e',
+      'dark-text-color': '#eefcf8',
       'playing': '#27677C',
-      'muted-text': '#6C5D96'
+      'dark-playing': '#92cadd',
+      'muted-text': '#6C5D96',
+      'dark-muted-text': '#8375a9'
     },
     extend: {
       height: {
