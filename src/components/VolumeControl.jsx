@@ -20,9 +20,9 @@ export function VolumeControl() {
           <path d="M14.329 7.172a.75.75 0 0 0-1.061 1.06 2.5 2.5 0 0 1 0 3.536.75.75 0 0 0 1.06 1.06 4 4 0 0 0 0-5.656Z" />
         </svg>
       </div>
-      <div className="volume-slider ms-2 w-full">
+      <div className="volume-slider ms-2 w-full text-slate-500">
         <input
-          className="w-full"
+          className="w-full text-slate-500"
           type="range"
           min="1"
           max="100"
